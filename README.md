@@ -31,14 +31,16 @@
 
 # Requirements
 * Create a new app using data from the socrata apis
- * Search for interesting data on [opendatanetwork.com](opendatanetwork.com)
- * For help read the api docs at [dev.socrata.com](dev.socrata.com)
+ * Search for interesting data on [opendatanetwork.com](http://opendatanetwork.com)
+ * For help read the api docs at [dev.socrata.com](http://dev.socrata.com)
 * Create an app with a router with 3 routes
  * `/#/about` -> that should contain a landing page describing your site
  * `/#/data` -> that should have a list of populated data from a socrata API endpoint
  * `otherwise` -> a 404 page with a like back to `/#/about`
 * Build this app using only the `.component` syntax, aka. no `.directive`'s
 * Your app should not have a main directive
+* signup with open data network and register an app to get an app token before you get started!!
+* remember to send your app toekn in the query string [APP TOKEN](https://dev.socrata.com/docs/app-tokens.html)
 
 # Test
  * write test for any service methods and controller methods
